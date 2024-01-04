@@ -157,9 +157,9 @@ print(spans)
 
 * Overall model performances (Test set)
 
-|   | Precision | Recall | F-score |
-|---|:---:|:---:|:---:|
-|     | 94.80   | 84.88   | 89.57 | 
+| Precision | Recall | F-score |
+|:---:|:---:|:---:|
+| 94.80 | 84.88 | 89.57 | 
 
 
 * Model performances by entity (Test set)
