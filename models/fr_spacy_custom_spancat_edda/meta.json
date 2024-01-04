@@ -1,0 +1,56 @@
+{
+  "lang":"fr",
+  "name":"pipeline",
+  "version":"0.0.0",
+  "spacy_version":">=3.7.2,<3.8.0",
+  "description":"",
+  "author":"",
+  "email":"",
+  "url":"",
+  "license":"",
+  "spacy_git_version":"a89eae928",
+  "vectors":{
+    "width":0,
+    "vectors":0,
+    "keys":0,
+    "name":null,
+    "mode":"default"
+  },
+  "labels":{
+    "tok2vec":[
+
+    ],
+    "spancat":[
+      "Head",
+      "Domain-mark",
+      "NC-Spatial",
+      "ENE-Spatial",
+      "NP-Spatial",
+      "Relation",
+      "Latlong",
+      "NC-Person",
+      "NP-Person",
+      "ENE-Person",
+      "NP-Misc",
+      "ENE-Misc"
+    ]
+  },
+  "pipeline":[
+    "tok2vec",
+    "spancat"
+  ],
+  "components":[
+    "tok2vec",
+    "spancat"
+  ],
+  "disabled":[
+
+  ],
+  "performance":{
+    "spans_sc_f":0.8158965765,
+    "spans_sc_p":0.875192604,
+    "spans_sc_r":0.7641255605,
+    "tok2vec_loss":23.5552025161,
+    "spancat_loss":4975.8467903137
+  }
+}

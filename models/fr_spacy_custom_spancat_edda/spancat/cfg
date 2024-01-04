@@ -1,0 +1,21 @@
+{
+  "labels":[
+    "Head",
+    "Domain-mark",
+    "NC-Spatial",
+    "ENE-Spatial",
+    "NP-Spatial",
+    "Relation",
+    "Latlong",
+    "NC-Person",
+    "NP-Person",
+    "ENE-Person",
+    "NP-Misc",
+    "ENE-Misc"
+  ],
+  "spans_key":"sc",
+  "threshold":0.5,
+  "max_positive":null,
+  "negative_weight":null,
+  "allow_overlap":true
+}
