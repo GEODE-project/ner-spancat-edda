@@ -2,7 +2,7 @@
 
 This repository contains a gold standard corpus for named entity recognition and span categorization annotations from Diderot & d’Alembert’s Encyclopédie entries.
 
-**Developed by:** [Ludovic Moncla](https://ludovicmoncla.github.io), [Katherine McDonough](https://www.lancaster.ac.uk/dsi/about-us/members/katherine-mcdonough#projects) and [Denis Vigier](http://www.icar.cnrs.fr/membre/dvigier/) in the framework of the [GEODE](https://geode-project.github.io) project.
+**Developed by:** [Ludovic Moncla](https://ludovicmoncla.github.io), [Katherine McDonough](https://www.lancaster.ac.uk/dsi/about-us/members/katherine-mcdonough#projects) and [Denis Vigier](http://www.icar.cnrs.fr/membre/dvigier/) within the framework of the [GEODE](https://geode-project.github.io) project.
 
 
 ## Dataset and methodology
