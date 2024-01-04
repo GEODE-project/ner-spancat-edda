@@ -90,7 +90,7 @@ The model is available on HuggingFace's model hub: [https://huggingface.co/GEODE
 
 
 
-### How to Get Started with the Model
+### How to Get Started with the model
 
 Use the code below to get started with the model.
 
