@@ -73,7 +73,7 @@ The datasets have the following breakdown of tokens and spans/entities.
 
 ### Download
 
-The dataset can be downloaded from the current [Github repository]() and will be available on Zenodo soon.
+The dataset can be downloaded from the current [Github repository]() and Zenodo ([https://zenodo.org/records/10530178](https://zenodo.org/records/10530178)).
 The dataset is available in the following formats[^1]: 
 * JSONL format provided by [Prodigy](https://prodi.gy)
 * binary spaCy format (ready to use with the spaCy train pipeline)
@@ -81,6 +81,10 @@ The dataset is available in the following formats[^1]:
 
 [^1]: This is a work in progress. The dataset will be available in other formats soon.
 
+
+### Citation
+
+> Moncla, L., Vigier, D., & McDonough, K. (2024). Diderot & d'Alembert's Encyclopédie: Gold Standard Corpus for Named Entity Recognition and Span Categorization Annotations (1.0.0) [Data set]. Zenodo. https://doi.org/10.5281/zenodo.10530178
 
 
 ## spaCy Custom Spancat trained on Diderot & d’Alembert’s Encyclopédie entries
