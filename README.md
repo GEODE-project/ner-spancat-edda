@@ -25,12 +25,12 @@ This repository contains a gold standard corpus for named entity recognition and
 
 ### Dataset overview
 
-The Gold Standard dataset is composed of 2200 paragraphs out of 2001 Encyclopédie's entries randomly selected. 
+The Gold Standard dataset is composed of 2,200 paragraphs out of 2,001 Encyclopédie's entries randomly selected. 
 All paragraphs were written in French and are distributed as follows among the Encyclopédie knowledge domains:
 
 | Knowledge domain | Paragraphs | 
 |---|:---:|
-| Géographie | 1096 | 
+| Géographie | 1,096 | 
 | Histoire | 259 | 
 | Droit Jurisprudence | 113 | 
 | Physique | 92 | 
@@ -55,20 +55,20 @@ The datasets have the following breakdown of tokens and spans/entities.
 
 |   | Train | Validation | Test|
 |---|:---:|:---:|:---:|
-|Paragraphs| 1800 | 200 | 200|
-| Tokens | 135857 | 15360 | 14271 |
-| NC-Spatial | 3268 | 358 | 357 |
-| NP-Spatial | 4719 | 464 | 522 |
-| ENE-Spatial | 3044 | 326 | 334 |
-| Relation | 2101 | 220 | 226 |
+|Paragraphs| 1,800 | 200 | 200|
+| Tokens | 135,857 | 15,360 | 14,271 |
+| NC-Spatial | 3,268 | 358 | 357 |
+| NP-Spatial | 4,719 | 464 | 522 |
+| ENE-Spatial | 3,044 | 326 | 334 |
+| Relation | 2,101 | 220 | 226 |
 | Latlong | 553 | 66 | 72 |
-| NC-Person | 1378 | 132 | 133 |
-| NP-Person | 1603 | 170 | 150 |
+| NC-Person | 1,378 | 132 | 133 |
+| NP-Person | 1,603 | 170 | 150 |
 | ENE-Person | 491 | 49 | 57 |
 | NP-Misc | 953 | 108 | 96 |
 | ENE-Misc | 255 | 31 | 22 |
-| Head | 1264 | 143 | 154 |
-| Domain-Mark | 1069 | 122 | 133 |
+| Head | 1,264 | 143 | 154 |
+| Domain-Mark | 1,069 | 122 | 133 |
 
 
 ### Download
