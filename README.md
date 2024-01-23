@@ -9,18 +9,18 @@ This repository contains a gold standard corpus for named entity recognition and
 
 ### Tagset
 
-- **NC-Spatial**: a common noun that identifies a spatial entity (nominal spatial entity) including natural features, e.g. `sea`, `city`, `region`.
-- **NP-Spatial**: a proper noun identifying the name of a place (spatial named entities), e.g. `Paris`, `Lyon`, `France`.
-- **ENE-Spatial**: nested spatial entity , e.g. `ville de Paris`.
+- **NC-Spatial**: a common noun that identifies a spatial entity (nominal spatial entity) including natural features, e.g. `ville`, `la rivière`, `royaume`.
+- **NP-Spatial**: a proper noun identifying the name of a place (spatial named entities), e.g. `France`, `Paris`, `la Chine`.
+- **ENE-Spatial**: nested spatial entity , e.g. `ville de France`, `royaume de Naples`, `la mer Baltique`.
 - **Relation**: spatial relation, e.g. `dans`, `sur`, `à 10 lieues de`.
 - **Latlong**: geographic coordinates, e.g. `Long. 19. 49. lat. 43. 55. 44.`
-- **NC-Person**: a common noun that identifies a person (nominal spatial entity), e.g. `roi`, `les auteurs`.
-- **NP-Person**: a proper noun identifying the name of a person (person named entities), e.g. `Henry IV`, `Cassini`.
-- **ENE-Person**: nested people entity 
-- **NP-Misc**: a proper noun identifying entities not classified as spatial or person, e.g. ``, ``.
-- **ENE-Misc**: nested named entity not classified as spatial or person, e.g. ``, ``.
+- **NC-Person**: a common noun that identifies a person (nominal spatial entity), e.g. `roi`, `l'empereur`, `les auteurs`.
+- **NP-Person**: a proper noun identifying the name of a person (person named entities), e.g. `Louis XIV`, `Pline`, `les Romains`.
+- **ENE-Person**: nested people entity, e.g. `le czar Pierre`, `roi de Macédoine`
+- **NP-Misc**: a proper noun identifying entities not classified as spatial or person, e.g. `l'Eglise`, `1702`, `Pélasgique`.
+- **ENE-Misc**: nested named entity not classified as spatial or person, e.g. `l'ordre de S. Jacques`, `la déclaration du 21 Mars 1671`.
 - **Head**: entry name
-- **Domain-Mark**: words indicating the knowledge domain (usually after the head and between parenthesis), e.g. `Géographie`, `Histoire`, `Médecine`.
+- **Domain-Mark**: words indicating the knowledge domain (usually after the head and between parenthesis), e.g. `Géographie`, `Geog.`, `en Anatomie
 
 
 ### Dataset overview
