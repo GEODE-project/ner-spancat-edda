@@ -20,7 +20,7 @@ This repository contains a gold standard corpus for named entity recognition and
 - **NP-Misc**: a proper noun identifying entities not classified as spatial or person, e.g. `l'Eglise`, `1702`, `Pélasgique`.
 - **ENE-Misc**: nested named entity not classified as spatial or person, e.g. `l'ordre de S. Jacques`, `la déclaration du 21 Mars 1671`.
 - **Head**: entry name
-- **Domain-Mark**: words indicating the knowledge domain (usually after the head and between parenthesis), e.g. `Géographie`, `Geog.`, `en Anatomie
+- **Domain-Mark**: words indicating the knowledge domain (usually after the head and between parenthesis), e.g. `Géographie`, `Geog.`, `en Anatomie`
 
 
 ### Dataset overview
