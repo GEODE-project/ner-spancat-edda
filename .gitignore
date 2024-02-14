@@ -163,3 +163,4 @@ cython_debug/
 tmp/
 jsonl_bckp/
 *.zip
+txt/
