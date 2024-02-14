@@ -163,4 +163,4 @@ cython_debug/
 tmp/
 jsonl_bckp/
 *.zip
-txt/
+GeoEDdA_txt_v0/
