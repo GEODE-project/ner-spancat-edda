@@ -5,7 +5,7 @@
 
 ## Download
 
-The dataset can be downloaded from the current [Github repository](https://github.com/GEODE-project/ner-spancat-edda/tree/main/datasets) and will be available on Zenodo soon.
+The dataset can be downloaded from the current [Github repository](https://github.com/GEODE-project/ner-spancat-edda/tree/main/datasets), Zenodo ([https://zenodo.org/records/10530178](https://zenodo.org/records/10530178)) and HuggingFace [https://huggingface.co/datasets/GEODE/GeoEDdA](https://huggingface.co/datasets/GEODE/GeoEDdA).
 The dataset is available in the following formats[^1]: 
 * JSONL format provided by [Prodigy](https://prodi.gy)
 * binary spaCy format (ready to use with the spaCy train pipeline)
