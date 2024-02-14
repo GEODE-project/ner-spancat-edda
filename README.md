@@ -73,7 +73,7 @@ The datasets have the following breakdown of tokens and spans/entities.
 
 ### Download
 
-The dataset can be downloaded from the current [Github repository]() and Zenodo ([https://zenodo.org/records/10530178](https://zenodo.org/records/10530178)).
+The dataset can be downloaded from the current [Github repository](), Zenodo ([https://zenodo.org/records/10530178](https://zenodo.org/records/10530178)) and HuggingFace [https://huggingface.co/datasets/GEODE/GeoEDdA](https://huggingface.co/datasets/GEODE/GeoEDdA).
 The dataset is available in the following formats[^1]: 
 * JSONL format provided by [Prodigy](https://prodi.gy)
 * binary spaCy format (ready to use with the spaCy train pipeline)
