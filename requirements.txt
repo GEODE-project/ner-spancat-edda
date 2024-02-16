@@ -1,4 +1,6 @@
 jupyter
+datasets
 matplotlib
 jsonlines
 seaborn
+spacy==3.7.2
