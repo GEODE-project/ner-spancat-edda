@@ -79,25 +79,26 @@ Evaluation is performed using the spacy [evaluate](https://spacy.io/api/cli#eval
 
 * Overall model performances (Test set)
 
+
 | Precision | Recall | F-score |
 |:---:|:---:|:---:|
-| 94.65 | 84.75 | 89.43 | 
+| 88.33   | 79.40   | 83.63 | 
+
 
 
 * Model performances by entity (Test set)
 
 |   | Precision | Recall | F-score |
 |---|:---:|:---:|:---:|
-| NC-Spatial    | 97.08   | 93.28   | 95.14 | 
-| NP-Spatial    | 92.91   | 95.40   | 94.14 |
-| ENE-Spatial   | 92.22   | 95.81   | 93.98 |
-| Relation      | 96.69   | 64.60   | 77.45 |
-| Latlong       |  0.00   |  0.00   |  0.00 |
-| NC-Person     | 93.07   | 70.68   | 80.34 |
-| NP-Person     | 93.06   | 89.33   | 91.16 |
-| ENE-Person    | 92.16   | 82.46   | 87.04 |
-| NP-Misc       | 93.24   | 71.88   | 81.18 |
-| ENE-Misc      |  0.00   |  0.00   |  0.00 |
-| Head          | 99.33   | 96.75   | 98.03 |
-| Domain-mark   | 99.19   | 91.73   | 95.31 |
-
+| NC-Spatial    |  89.21  |  93.01  |  91.07 |
+| NP-Spatial    |  87.34  |  96.30  |  91.60 |
+| ENE-Spatial   |  85.30  |  96.42  |  90.52 |
+| Relation      |  87.42  |  62.56  |  72.93 |
+| Latlong       |  0.00   |  0.00   |  0.00  |
+| NC-Person     |  92.08  |  70.45  |  79.83 |
+| NP-Person     |  90.34  |  89.12  |  89.73 |
+| ENE-Person    |  90.20  |  82.14  |  85.98 |
+| NP-Misc       |  90.54  |  72.04  |  80.24 |
+| ENE-Misc      |  0.00   |  0.00   |  0.00  |
+| Head          |  76.92  |  20.83  |  32.79 |
+| Domain-mark   |  95.93  |  91.47  |  93.65 |
