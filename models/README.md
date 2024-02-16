@@ -75,11 +75,13 @@ print(spans)
 
 ### Evaluation
 
+Evaluation is performed using the spacy [evaluate](https://spacy.io/api/cli#evaluate) command line interface:
+
 * Overall model performances (Test set)
 
 | Precision | Recall | F-score |
 |:---:|:---:|:---:|
-| 94.80 | 84.88 | 89.57 | 
+| 94.65 | 84.75 | 89.43 | 
 
 
 * Model performances by entity (Test set)
@@ -87,7 +89,7 @@ print(spans)
 |   | Precision | Recall | F-score |
 |---|:---:|:---:|:---:|
 | NC-Spatial    | 97.08   | 93.28   | 95.14 | 
-| NP-Spatial    | 93.47   | 95.98   | 94.71 |
+| NP-Spatial    | 92.91   | 95.40   | 94.14 |
 | ENE-Spatial   | 92.22   | 95.81   | 93.98 |
 | Relation      | 96.69   | 64.60   | 77.45 |
 | Latlong       |  0.00   |  0.00   |  0.00 |
