@@ -48,7 +48,7 @@ The datasets have the following breakdown of tokens and spans/entities.
 |   | Train | Validation | Test|
 |---|:---:|:---:|:---:|
 |Paragraphs| 1,800 | 200 | 200|
-| Tokens | 136,126 | 15,378 | 14,286 |
+| Tokens | 134,299 | 15,172 | 14,083 |
 | NC-Spatial | 3,268 | 358 | 357 |
 | NP-Spatial | 4,719 | 464 | 522 |
 | ENE-Spatial | 3,044 | 326 | 334 |
