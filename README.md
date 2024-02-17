@@ -56,7 +56,7 @@ The datasets have the following breakdown of tokens and spans/entities.
 |   | Train | Validation | Test|
 |---|:---:|:---:|:---:|
 |Paragraphs| 1,800 | 200 | 200|
-| Tokens | 134,299 | 15,172 | 14,083 |
+| Tokens | 134,254 | 15,167 | 14,079 |
 | NC-Spatial | 3,268 | 358 | 357 |
 | NP-Spatial | 4,719 | 464 | 522 |
 | ENE-Spatial | 3,044 | 326 | 334 |
@@ -165,7 +165,7 @@ Evaluation is performed using the spacy [evaluate](https://spacy.io/api/cli#eval
 
 | Precision | Recall | F-score |
 |:---:|:---:|:---:|
-| 88.33   | 79.40   | 83.63 | 
+| 94.24   | 79.83   | 86.44 | 
 
 
 
@@ -173,18 +173,18 @@ Evaluation is performed using the spacy [evaluate](https://spacy.io/api/cli#eval
 
 |   | Precision | Recall | F-score |
 |---|:---:|:---:|:---:|
-| NC-Spatial    |  89.21  |  93.01  |  91.07 |
-| NP-Spatial    |  87.34  |  96.30  |  91.60 |
-| ENE-Spatial   |  85.30  |  96.42  |  90.52 |
-| Relation      |  87.42  |  62.56  |  72.93 |
+| NC-Spatial    |  97.08  |  93.28  |  95.14 |
+| NP-Spatial    |  92.74  |  95.40  |  94.05 |
+| ENE-Spatial   |  92.22  |  95.81  |  93.98 |
+| Relation      |  96.69  |  64.60  |  77.45 |
 | Latlong       |  0.00   |  0.00   |  0.00  |
-| NC-Person     |  92.08  |  70.45  |  79.83 |
-| NP-Person     |  90.34  |  89.12  |  89.73 |
-| ENE-Person    |  90.20  |  82.14  |  85.98 |
-| NP-Misc       |  90.54  |  72.04  |  80.24 |
+| NC-Person     |  93.07  |  70.68  |  80.34 |
+| NP-Person     |  92.41  |  89.33  |  90.85 |
+| ENE-Person    |  92.16  |  82.46  |  87.04 |
+| NP-Misc       |  93.24  |  71.88  |  81.18 |
 | ENE-Misc      |  0.00   |  0.00   |  0.00  |
-| Head          |  76.92  |  20.83  |  32.79 |
-| Domain-mark   |  95.93  |  91.47  |  93.65 |
+| Head          |  97.44  |  24.68  |  39.38 |
+| Domain-mark   |  99.19  |  91.73  |  95.31 |
 
 
 
