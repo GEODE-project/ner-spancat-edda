@@ -49,16 +49,16 @@ The datasets have the following breakdown of tokens and spans/entities.
 |---|:---:|:---:|:---:|
 |Paragraphs| 1,800 | 200 | 200|
 | Tokens | 134,254 | 15,167 | 14,079 |
-| NC-Spatial | 3,268 | 358 | 357 |
-| NP-Spatial | 4,719 | 464 | 522 |
-| ENE-Spatial | 3,044 | 326 | 334 |
-| Relation | 2,101 | 220 | 226 |
+| NC-Spatial | 3,252 | 358 | 355 |
+| NP-Spatial | 4,707 | 464 | 519 |
+| ENE-Spatial | 3,043 | 326 | 334 |
+| Relation | 2,093 | 219 | 226 |
 | Latlong | 553 | 66 | 72 |
 | NC-Person | 1,378 | 132 | 133 |
-| NP-Person | 1,603 | 170 | 150 |
-| ENE-Person | 491 | 49 | 57 |
-| NP-Misc | 953 | 108 | 96 |
+| NP-Person | 1,599 | 170 | 150 |
+| ENE-Person | 492 | 49 | 57 |
+| NP-Misc | 948 | 108 | 96 |
 | ENE-Misc | 255 | 31 | 22 |
-| Head | 1,264 | 143 | 154 |
+| Head | 1,261 | 142 | 153 |
 | Domain-Mark | 1,069 | 122 | 133 |
 
