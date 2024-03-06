@@ -82,9 +82,6 @@ The dataset is available in the following formats[^1]:
 [^1]: This is a work in progress. The dataset will be available in other formats soon.
 
 
-### Citation
-
-> Moncla, L., Vigier, D., & McDonough, K. (2024). Diderot & d'Alembert's Encyclopédie: Gold Standard Corpus for Named Entity Recognition and Span Categorization Annotations (1.0.0) [Data set]. Zenodo. https://doi.org/10.5281/zenodo.10530178
 
 
 ## spaCy Custom Spancat trained on Diderot & d’Alembert’s Encyclopédie entries
@@ -185,6 +182,13 @@ Evaluation is performed using the spacy [evaluate](https://spacy.io/api/cli#eval
 | ENE-Misc      |  0.00   |  0.00   |  0.00  |
 | Head          |  94.87  |  24.18  |  38.54 |
 | Domain-mark   |  99.19  |  91.73  |  95.31 |
+
+
+## Cite this work
+
+> Moncla, L., Vigier, D., & McDonough, K. (2024). GeoEDdA: A Gold Standard Dataset for Geo-semantic Annotation of Diderot & d’Alembert’s Encyclopédie. In proceedings of the 2nd International Workshop on Geographic Information Extraction from Texts (GeoExT'24), ECIR Conference, Glasgow, UK.
+
+> Moncla, L., Vigier, D., & McDonough, K. (2024). Diderot & d'Alembert's Encyclopédie: Gold Standard Corpus for Named Entity Recognition and Span Categorization Annotations (1.0.0) [Data set]. Zenodo. https://doi.org/10.5281/zenodo.10530178
 
 
 
