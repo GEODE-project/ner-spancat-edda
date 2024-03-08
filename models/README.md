@@ -26,7 +26,7 @@ nlp = spacy.load("fr_spacy_custom_spancat_edda")
 # Importing as module.
 import fr_spacy_custom_spancat_edda
 nlp = fr_spacy_custom_spancat_edda.load()
-doc = nlp("* ALBI, (Géog.) ville de France, capitale de  l'Albigeois, dans le haut Languedoc : elle est sur le Tarn. Long. 19. 49. lat. 43. 55. 44.")
+doc = nlp("* ALBI, (Géog.) ville de France, capitale de l'Albigeois, dans le haut Languedoc : elle est sur le Tarn. Long. 19. 49. lat. 43. 55. 44.")
 
 spans = []
 
@@ -45,31 +45,31 @@ print(spans)
  {'start': 16, 'end': 21, 'labels': ['NC-Spatial'], 'text': 'ville'},
  {'start': 25, 'end': 31, 'labels': ['NP-Spatial'], 'text': 'France'},
  {'start': 33, 'end': 41, 'labels': ['NC-Spatial'], 'text': 'capitale'},
- {'start': 59, 'end': 63, 'labels': ['Relation'], 'text': 'dans'},
- {'start': 93, 'end': 96, 'labels': ['Relation'], 'text': 'sur'},
+ {'start': 58, 'end': 62, 'labels': ['Relation'], 'text': 'dans'},
+ {'start': 92, 'end': 95, 'labels': ['Relation'], 'text': 'sur'},
  {'start': 9, 'end': 14, 'labels': ['Domain-mark'], 'text': 'Géog.'},
- {'start': 46, 'end': 57, 'labels': ['NP-Spatial'], 'text': "l'Albigeois"},
- {'start': 97, 'end': 104, 'labels': ['NP-Spatial'], 'text': 'le Tarn'},
+ {'start': 45, 'end': 56, 'labels': ['NP-Spatial'], 'text': "l'Albigeois"},
+ {'start': 96, 'end': 103, 'labels': ['NP-Spatial'], 'text': 'le Tarn'},
  {'start': 16,
   'end': 31,
   'labels': ['ENE-Spatial'],
   'text': 'ville de France'},
- {'start': 64,
-  'end': 81,
+ {'start': 63,
+  'end': 80,
   'labels': ['NP-Spatial'],
   'text': 'le haut Languedoc'},
  {'start': 33,
-  'end': 57,
+  'end': 56,
   'labels': ['ENE-Spatial'],
-  'text': "capitale de  l'Albigeois"},
+  'text': "capitale de l'Albigeois"},
  {'start': 33,
-  'end': 81,
+  'end': 80,
   'labels': ['ENE-Spatial'],
-  'text': "capitale de  l'Albigeois, dans le haut Languedoc"},
+  'text': "capitale de l'Albigeois, dans le haut Languedoc"},
  {'start': 16,
-  'end': 81,
+  'end': 80,
   'labels': ['ENE-Spatial'],
-  'text': "ville de France, capitale de  l'Albigeois, dans le haut Languedoc"}]
+  'text': "ville de France, capitale de l'Albigeois, dans le haut Languedoc"}]
 ```
 
 
@@ -80,9 +80,9 @@ Evaluation is performed using the spacy [evaluate](https://spacy.io/api/cli#eval
 * Overall model performances (Test set)
 
 
-| Precision | Recall | F-score |
-|:---:|:---:|:---:|
-| 93.98   | 79.82   | 86.33 | 
+|   | Precision | Recall | F-score |
+|---|:---:|:---:|:---:|
+|    | 94.09   | 79.91   | 86.42 | 
 
 
 
@@ -91,14 +91,14 @@ Evaluation is performed using the spacy [evaluate](https://spacy.io/api/cli#eval
 |   | Precision | Recall | F-score |
 |---|:---:|:---:|:---:|
 | NC-Spatial    |  96.50  |  93.24  |  94.84 |
-| NP-Spatial    |  92.55  |  95.76  |  94.13 |
-| ENE-Spatial   |  91.93  |  95.51  |  93.69 |
-| Relation      |  96.69  |  64.60  |  77.45 |
+| NP-Spatial    |  92.74  |  95.95  |  94.32 |
+| ENE-Spatial   |  91.67  |  95.51  |  93.55 |
+| Relation      |  97.33  |  64.60  |  77.66 |
 | Latlong       |  0.00   |  0.00   |  0.00  |
 | NC-Person     |  93.07  |  70.68  |  80.34 |
-| NP-Person     |  92.41  |  89.33  |  90.85 |
+| NP-Person     |  92.47  |  90.00  |  91.22 |
 | ENE-Person    |  92.16  |  82.46  |  87.04 |
 | NP-Misc       |  93.24  |  71.88  |  81.18 |
 | ENE-Misc      |  0.00   |  0.00   |  0.00  |
-| Head          |  94.87  |  24.18  |  38.54 |
+| Head          |  97.37  |  24.18  |  38.74 |
 | Domain-mark   |  99.19  |  91.73  |  95.31 |
