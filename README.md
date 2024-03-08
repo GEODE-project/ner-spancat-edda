@@ -107,7 +107,7 @@ nlp = spacy.load("fr_spacy_custom_spancat_edda")
 # Importing as module.
 import fr_spacy_custom_spancat_edda
 nlp = fr_spacy_custom_spancat_edda.load()
-doc = nlp("* ALBI, (Géog.) ville de France, capitale de  l'Albigeois, dans le haut Languedoc : elle est sur le Tarn. Long. 19. 49. lat. 43. 55. 44.")
+doc = nlp("* ALBI, (Géog.) ville de France, capitale de l'Albigeois, dans le haut Languedoc : elle est sur le Tarn. Long. 19. 49. lat. 43. 55. 44.")
 
 spans = []
 
@@ -126,31 +126,31 @@ print(spans)
  {'start': 16, 'end': 21, 'labels': ['NC-Spatial'], 'text': 'ville'},
  {'start': 25, 'end': 31, 'labels': ['NP-Spatial'], 'text': 'France'},
  {'start': 33, 'end': 41, 'labels': ['NC-Spatial'], 'text': 'capitale'},
- {'start': 59, 'end': 63, 'labels': ['Relation'], 'text': 'dans'},
- {'start': 93, 'end': 96, 'labels': ['Relation'], 'text': 'sur'},
+ {'start': 58, 'end': 62, 'labels': ['Relation'], 'text': 'dans'},
+ {'start': 92, 'end': 95, 'labels': ['Relation'], 'text': 'sur'},
  {'start': 9, 'end': 14, 'labels': ['Domain-mark'], 'text': 'Géog.'},
- {'start': 46, 'end': 57, 'labels': ['NP-Spatial'], 'text': "l'Albigeois"},
- {'start': 97, 'end': 104, 'labels': ['NP-Spatial'], 'text': 'le Tarn'},
+ {'start': 45, 'end': 56, 'labels': ['NP-Spatial'], 'text': "l'Albigeois"},
+ {'start': 96, 'end': 103, 'labels': ['NP-Spatial'], 'text': 'le Tarn'},
  {'start': 16,
   'end': 31,
   'labels': ['ENE-Spatial'],
   'text': 'ville de France'},
- {'start': 64,
-  'end': 81,
+ {'start': 63,
+  'end': 80,
   'labels': ['NP-Spatial'],
   'text': 'le haut Languedoc'},
  {'start': 33,
-  'end': 57,
+  'end': 56,
   'labels': ['ENE-Spatial'],
-  'text': "capitale de  l'Albigeois"},
+  'text': "capitale de l'Albigeois"},
  {'start': 33,
-  'end': 81,
+  'end': 80,
   'labels': ['ENE-Spatial'],
-  'text': "capitale de  l'Albigeois, dans le haut Languedoc"},
+  'text': "capitale de l'Albigeois, dans le haut Languedoc"},
  {'start': 16,
-  'end': 81,
+  'end': 80,
   'labels': ['ENE-Spatial'],
-  'text': "ville de France, capitale de  l'Albigeois, dans le haut Languedoc"}]
+  'text': "ville de France, capitale de l'Albigeois, dans le haut Languedoc"}]
 ```
 
 
