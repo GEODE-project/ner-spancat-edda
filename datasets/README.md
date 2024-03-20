@@ -51,7 +51,7 @@ The datasets have the following breakdown of tokens and spans/entities.
 | Tokens | 132,398 | 14,959 | 13,881 |
 | NC-Spatial | 3,252 | 358 | 355 |
 | NP-Spatial | 4,707 | 464 | 519 |
-| ENE-Spatial | 3,043 | 326 | 334 |
+| ENE-Spatial | 3,033 | 326 | 334 |
 | Relation | 2,093 | 219 | 226 |
 | Latlong | 553 | 66 | 72 |
 | NC-Person | 1,378 | 132 | 133 |
